@@ -1,0 +1,67 @@
+[
+  {
+    "query": "0eb3cf00f96dd65239a88a6e12769ae1",
+    "variables": {
+      "interaction": {
+        "productInteraction": {
+          "interaction_type": "CLICK",
+          "site": {
+            "site_name": "ta",
+            "site_business_unit": "Hotels",
+            "site_domain": "www.tripadvisor.com.vn"
+          },
+          "pageview": {
+            "pageview_request_uid": "66c8edfd-b8ea-48af-80d6-dc8cc33c2c7e",
+            "pageview_attributes": {
+              "location_id": XX_LOCATION_ID,
+              "geo_id": XX_GEO_ID,
+              "servlet_name": "Hotel_Review"
+            }
+          },
+          "user": {
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36",
+            "site_persistent_user_uid": "web395a.171.252.154.103.17FB02C584A",
+            "unique_user_identifiers": {
+              "session_id": "FE8C78AC842E453AA3A443876859EBE9"
+            }
+          },
+          "search": {},
+          "item_group": {
+            "item_group_collection_key": "66c8edfd-b8ea-48af-80d6-dc8cc33c2c7e"
+          },
+          "item": {
+            "product_type": "Hotels",
+            "item_id_type": "ta-location-id",
+            "item_id": XX_LOCATION_ID,
+            "item_attributes": {
+              "element_type": "number",
+              "action_name": "REVIEW_NAV"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "query": "ea9aad8c98a6b21ee6d510fb765a6522",
+    "variables": {
+      "locationId": XX_LOCATION_ID,
+      "filters": [
+        {
+          "axis": "LANGUAGE",
+          "selections": [
+            "vi"
+          ]
+        }
+      ],
+      "prefs": null,
+      "initialPrefs": {},
+      "limit": 20,
+      "offset": XX_OFFSET,
+      "filterCacheKey": "locationReviewFilters_XX_LOCATION_ID",
+      "prefsCacheKey": "locationReviewPrefs_XX_LOCATION_ID",
+      "needKeywords": false,
+      "keywordVariant": "location_keywords_v2_llr_order_30_vi"
+    }
+  }
+]
